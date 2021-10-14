@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.home-bg-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.fashion {
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fashionQuate {
+  font-family: roboto;
+  font-size: 20px;
+  color: #64748b;
+  font-weight: solid;
+}
+
+.shopnowbtn {
+  background-color: #0b69ff;
+  background-size: cover;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+
+.clothes {
+  height: 60vh;
+  width: 50vw;
+}
+
+@media (max-width: 768px) {
+  .clothes {
+    display: none;
+  }
+}
+
+.clothes-1 {
+  height: 20vh;
+  width: 80vw;
+}
+
+@media (min-width: 768px) {
+  .clothes-1 {
+    display: none;
+  }
+}
